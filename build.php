@@ -1,4 +1,8 @@
 <?php
+/*
+Here are my changes
+
+*/
 if ( ! function_exists('js_include')){
 function js($config){
 	global $KEY;
@@ -28,6 +32,10 @@ function simple_pack($config){
 	return $output;
 	
 }
+/*
+Some more
+
+*/
 function simple_get_all($dir){
 	if ($handle = opendir($dir)) {
 	    $output = "";
